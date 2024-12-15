@@ -14,6 +14,8 @@ const { header, children } = P
 
 <p>{ !!children }</p>
 <p>{ !!header }</p>
+
+<p>header here...</p>
 {@render header?.()}
 
 <hr>
