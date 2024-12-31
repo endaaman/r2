@@ -1,4 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Home</h1>
+
+{#snippet header()}
+  <p class="p-20">header</p>
+{/snippet}
 
 <p class="p-20">aa</p>
