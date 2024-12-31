@@ -4,4 +4,4 @@
   <p class="p-20">header</p>
 {/snippet}
 
-<p class="p-20">aa</p>
+<p>Home content</p>

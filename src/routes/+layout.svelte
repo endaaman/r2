@@ -11,10 +11,10 @@ const { header, children } = $props()
   <li><a href="/about">About</a></li>
 </ul>
 
-<p>{ !!header }</p>
-{@render header?.()}
+<p>Custom header({!!header})</p>
+<p>header:{@render header?.()}</p>
 
----<br>
+<p>---</p>
 
 <!-- <slot></slot> -->
 {@render children()}
